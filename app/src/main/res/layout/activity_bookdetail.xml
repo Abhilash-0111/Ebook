@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg25"
+    android:layout_height="match_parent"
+    tools:context=".Bookdetail">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:rotation="0"
+            android:src="@drawable/bg21" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="22dp"
+            android:orientation="horizontal"
+            android:padding="22dp">
+
+            <Button
+                android:id="@+id/openbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:layout_weight="1"
+                android:background="@drawable/bgxml1"
+                android:text="Read"
+                android:textSize="15sp" />
+
+
+            <Button
+                android:id="@+id/Listenbook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:layout_marginLeft="22dp"
+                android:layout_weight="1"
+                android:background="@drawable/bgxml1"
+                android:text="Listen"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/t1"
+        android:textStyle="bold"
+        android:background="#400B0A0A"
+        android:text="Description:    "
+        android:layout_gravity="left"
+        android:textSize="17sp"
+        android:id="@+id/t2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#400B0A0A"
+        android:layout_marginBottom="100dp"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Harry Potter is a series of fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people). "
+        android:layout_gravity="left"
+        android:textSize="15sp"
+        android:id="@+id/t1" />
+</LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

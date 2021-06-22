@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "63702193067",
+    "firebase_url": "https://ebook-af3af.firebaseio.com",
+    "project_id": "ebook-af3af",
+    "storage_bucket": "ebook-af3af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63702193067:android:d1c220a65049124dbab8ee",
+        "android_client_info": {
+          "package_name": "com.example.ebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63702193067-tlk91jevjd15g793terih3pcrk5qprhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeUkziep5zuKncHCRHXjNvilCD35NM33w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63702193067-tlk91jevjd15g793terih3pcrk5qprhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
